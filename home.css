@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2F1D36;
+    display: flex;
+    padding: 2%;
+    justify-content: flex-end;
+    border: 2px solid #442742;
+}
+
+nav a{
+    color: #c9d1d9;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
+    background-color: #13031a;
+}
+
+main {
+    display: flex;
+    margin-left: 10%;
+    align-items: flex-start;     /* centraliza verticalmente */
+    gap: 20px;               /* espaço entre imagem e texto */
+    min-height: calc(100vh - 60px); /* Subtraia a altura do footer */
+    justify-content: center;
+    margin-right: 20%;
+}
+.perfil{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    padding: 8px; /* largura da "borda" */
+    background: linear-gradient(to right, #373394, #414FB0, #6D2184, #B4185F, #EE6923);
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; /* espaço entre imagem e texto */
+    margin-top: 2%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.719); /* sombra suave */
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* mantem a proporção e preenche */
+    object-position: center 25%; /* ajustando a posisão da imagem para aparecer meu rosto*/
+    border-radius: 50%; /* aredondando as bordas*/
+    border: 3px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.719); /* sombra suave */
+
+}
+div{
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    margin: 0;
+    margin-top: 60px;
+    justify-content: flex-start;
+    
+}
+
+.print{
+    font-family: "Courier New", monospace;
+    color: #c9d1d9;
+
+}
+
+code{
+    font-family: "Courier New", monospace;
+    color: green;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.445);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.719); /* sombra suave */
+
+}
+
+p{
+    margin-top: 2%;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: #c9d1d9;
+}
+
+footer{
+    height: 60px; 
+    background-color: #2c1d3b;
+    color: white;
+    text-align: center;
+    line-height: 60px; /* centraliza o texto verticalmente */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+a{
+    color: #c9d1d9;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.icon{
+    width: 112px;
+    height: 30px;
+    border-radius: 0;
+   
+
+}
