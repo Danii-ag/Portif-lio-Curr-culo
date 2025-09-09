@@ -1,4 +1,4 @@
-#PORTIFOLIO/CURRICULO
+## PORTIFOLIO/CURRICULO
 
 Este projeto é uma **Landing Page** criada para me apresentar e também demonstrar minhas **competências e habilidades em programação**.  
 O site inclui informações sobre mim, meus conhecimentos técnicos e links para contato.
