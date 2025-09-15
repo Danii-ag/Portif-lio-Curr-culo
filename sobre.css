@@ -54,7 +54,57 @@ hr{
     border: 2px solid #442742;
     margin: 20px;
 }
+.subtitulo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    color: #c9d1d9; 
+}
+ul{
+    color:#c9d1d9;
+    background: #2F1D36;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border: 2px solid #442742;
+    margin: 20px;
+}
 
+
+
+.fundocima img{
+    width: 500px;       
+    height: auto;        /* mantém a proporção da imagem */
+    border-radius: 0 !important;    /* tira o arredondamento */
+    border: 0;
+    box-shadow: none;
+    position: fixed;     /* fixa na tela */
+    bottom: 20px;       
+    left: 0;           
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 5px;   
+    z-index: -1; /* joga a imagem pra trás */
+
+} 
+
+.fundo img{
+    width: 500px;       
+    height: auto;        /* mantém a proporção da imagem */
+    border-radius: 0 !important;    /* tira o arredondamento */
+    border: 0;
+    box-shadow: none;
+    position: fixed;     /* fixa na tela */
+    bottom: 20px;       
+    right: 0;           
+    margin: 0px;
+    margin-bottom: 25px;
+    margin-top: 0px;   
+    z-index: -1; /* joga a imagem pra trás */
+}
 
 footer{
     height: 60px; /* ajuste conforme a altura do seu footer */background-color: #2c1d3b;

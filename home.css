@@ -65,11 +65,11 @@ img{
 div{
     max-width: 900px;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 0;
     margin: 0;
-    margin-top: 60px;
-    justify-content: flex-start;
-    
+    margin-top: 80px;
+    justify-content:flex-start;
+    margin-right: 0px; 
 }
 
 .print{
@@ -94,6 +94,36 @@ p{
     margin-top: 2%;
     font-family: "Segoe UI", Tahoma, sans-serif;
     color: #c9d1d9;
+}
+.fundocima img{
+    width: 500px;       
+    height: auto;        /* mantém a proporção da imagem */
+    border-radius: 0 !important;    /* tira o arredondamento */
+    border: 0;
+    box-shadow: none;
+    position: fixed;     /* fixa na tela */
+    bottom: 20px;       
+    left: 0;           
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 5px;   
+    z-index: -1; /* joga a imagem pra trás */
+
+} 
+
+.fundo img{
+    width: 500px;       
+    height: auto;        /* mantém a proporção da imagem */
+    border-radius: 0 !important;    /* tira o arredondamento */
+    border: 0;
+    box-shadow: none;
+    position: fixed;     /* fixa na tela */
+    bottom: 20px;       
+    right: 0;           
+    margin: 0px;
+    margin-bottom: 25px;
+    margin-top: 0px;   
+    z-index: -1; /* joga a imagem pra trás */
 }
 
 footer{
